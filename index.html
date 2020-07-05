@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+    </header>
+    <section class="main">
+            <div class="main__left">
+                <div class="main__sidebar-first"></div> 
+                <div class="main__sidebar-second"></div>
+            </div>
+            <div class="main__info">
+                <div class="tabs">
+                    <input type="radio" class="tabs__input" id="tab1" name="tabs" checked>
+                    <label for="tab1" class="tabs__label">Travel Documents</label>
+
+                    <input type="radio" class="tabs__input" id="tab2" name="tabs">
+                    <label for="tab2" class="tabs__label">Loyalty Programs</label>
+
+                    <input type="radio" class="tabs__input" id="tab3" name="tabs">
+                    <label for="tab3" class="tabs__label">Travel Preferences</label>
+
+                    <div class="tabs__content tabs__content_tab1" id="content-tab1">
+                        <div class="tabs__passports tabs__passports_close">
+                            <div class="tabs__about">
+                                <img class="tabs__img tabs__img_ua" src="img/ukraine-logo.png" alt="">
+                                <span class="tabs__country">Ukraine</span>
+                            </div>
+                            <div class="tabs__info">
+                                <div class="tabs__number">FJ22346</div>
+                                <div class="tabs__date">April 25, 2020</div>
+                            </div>
+                        </div>
+                        <div class="tabs__passports">
+                            <div class="tabs__about">
+                                <img class="tabs__img tabs__img_uk" src="img/UK-logo.png" alt="">
+                                <span class="tabs__country">United Kingdom</span>
+                            </div>
+                            <div class="tabs__info">
+                                <div class="tabs__number">FJ22346</div>
+                                <div class="tabs__date">April 25, 2020</div>
+                            </div>
+                        </div>
+                        <div class="tabs__passports_new">
+                            <img class="tabs__add-logo" src="img/new-logo.png" alt="">
+                            <div class="tabs__add_text">Add new passport</div>
+                        </div>
+                    </div>
+                    <div class="tabs__content tabs__content_tab2" id="content-tab2"></div>
+                    <div class="tabs__content tabs__content_tab3" id="content-tab3">
+                        <div class="prefferences">
+                            <div class="prefferences__block">
+                                <div class="prefferences__title">Preffered Airlines</div>
+                                <div class="prefferences__dropdown">
+                                    <button class="prefferences__dropbtn prefferences__dropbtn_airlines">Add airlines</button>
+                                </div>
+                            </div>
+                            <div class="prefferences__items">
+                                <div class="prefferences__item prefferences__item_close">Singapore Airlines</div>
+                                <div class="prefferences__item">Qatar Airways</div>
+                                <div class="prefferences__item">ANA All Nippon Airways</div>
+                                <div class="prefferences__item">Emirates</div>
+                            </div>
+                        </div>
+                        <div class="prefferences">
+                            <div class="prefferences__block">
+                                <div class="prefferences__title">Preferred Hotel Brands</div>
+                                <div class="prefferences__dropdown">
+                                    <button class="prefferences__dropbtn prefferences__dropbtn_brands">Add Hotel Brands</button>
+                                </div>
+                            </div>
+                            <div class="prefferences__items">
+                                <div class="prefferences__item">Hilton</div>
+                                <div class="prefferences__item">Westin</div>
+                                <div class="prefferences__item">Four Seasons</div>
+                                <div class="prefferences__item">Ritz-Carlton</div>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <div class="stars__title">Preferred by Stars</div>
+                            <div class="stars__block">
+                                <fieldset>
+                                    <div class="stars__item">
+                                        <input type="checkbox" class="stars__input" id="stars_1">
+                                        <label for="stars_1" class="stars__label"></label>
+                                        <div class="rating">
+                                            <input class="rating__star" type="radio" name="first-group" value="1" checked>
+                                            <input class="rating__star" type="radio" name="first-group" value="2" checked>
+                                            <input class="rating__star" type="radio" name="first-group" value="3" checked>
+                                            <input class="rating__star" type="radio" name="first-group" value="4" checked>
+                                            <input class="rating__star" type="radio" name="first-group" value="5" checked>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <div class="stars__item">
+                                        <input type="checkbox" class="stars__input" id="stars_2" checked active>
+                                        <label for="stars_2" class= "stars__label" ></label>
+                                        <div class="rating">
+                                            <input class="rating__star" type="radio" name="second-group" value="1" checked>
+                                            <input class="rating__star" type="radio" name="second-group" value="2" checked>
+                                            <input class="rating__star" type="radio" name="second-group" value="3" checked>
+                                            <input class="rating__star" type="radio" name="second-group" value="4" checked>
+                                            <input class="rating__star" type="radio" name="second-group" value="5" >
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <div class="stars__item">
+                                        <input type="checkbox" class="stars__input" id="stars_3" checked>
+                                        <label for="stars_3" class= "stars__label" ></label>
+                                        <div class="rating">
+                                            <input class="rating__star" type="radio" name="third-group" value="1" checked>
+                                            <input class="rating__star" type="radio" name="third-group" value="2" checked>
+                                            <input class="rating__star" type="radio" name="third-group" value="3" checked>
+                                            <input class="rating__star" type="radio" name="third-group" value="4">
+                                            <input class="rating__star" type="radio" name="third-group" value="5" >
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <div class="stars__item">
+                                        <input type="checkbox" class="stars__input" id="stars_4">
+                                        <label for="stars_4" class= "stars__label" ></label>
+                                        <div class="rating">
+                                            <input class="rating__star" type="radio" name="fourth-group" value="1" checked>
+                                            <input class="rating__star" type="radio" name="fourth-group" value="2" checked>
+                                            <input class="rating__star" type="radio" name="fourth-group" value="3">
+                                            <input class="rating__star" type="radio" name="fourth-group" value="4">
+                                            <input class="rating__star" type="radio" name="fourth-group" value="5" >
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <div class="stars__item">
+                                        <input type="checkbox" class="stars__input" id="stars_5">
+                                        <label for="stars_5" class= "stars__label" ></label>
+                                        <div class="rating">
+                                            <input class="rating__star" type="radio" name="fifth-group" value="1" checked>
+                                            <input class="rating__star" type="radio" name="fifth-group" value="2">
+                                            <input class="rating__star" type="radio" name="fifth-group" value="3">
+                                            <input class="rating__star" type="radio" name="fifth-group" value="4">
+                                            <input class="rating__star" type="radio" name="fifth-group" value="5">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal__title">
+                Add new passport
+                <img class="modal__close" src="/img/close.png" alt="">
+            </div>
+            <form class="modal__inputs">
+                <input type="text" class="modal__field" placeholder="First Name">
+                <input type="text" class="modal__field" placeholder="Last Name">
+                <input type="text" class="modal__field" placeholder="Passport Number">
+                <input type="text" class="modal__field" placeholder="Passport Country">
+                <input type="text" class="modal__field" placeholder="Passport Expiration Date">
+                <input type="text" class="modal__field" placeholder="Nationality">
+            </form>
+            <button class="modal__button">Save</button>
+        </div>
+    </div>
+    <footer class="footer">
+
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
