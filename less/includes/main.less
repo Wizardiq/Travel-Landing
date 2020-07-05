@@ -37,6 +37,11 @@
     padding: 23px 50px;
     &__input {
         display: none;
+        &:checked + .tabs__label {
+            color: #292949;
+            border-bottom: 2px solid #61DBB4;
+            text-shadow: 0 0 0.25px #292949, 0 0 0.25px #292949;
+        }
     }
     &__label {
         font-family: @CircularStd;
@@ -130,11 +135,6 @@
         font-size: 13px;
         margin-top: 11px;
     }
-}
-.tabs__input:checked + .tabs__label {
-    color: #292949;
-    border-bottom: 2px solid #61DBB4;
-    font-weight: @bold;
 }
 #tab1:checked ~ #content-tab1, #tab2:checked ~ #content-tab2, #tab3:checked ~ #content-tab3 {
     display: flex;
